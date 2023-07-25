@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src='index.js'></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="input_container">
+        <h1>Calculador de IMC</h1>
+
+        <div>
+            <h2>Nome</h2>
+            <input type="text" id="input_name">
+        </div>
+    
+        <div>
+            <h2>Idade</h2>
+            <input type="number" id="input_age">
+        </div>
+    
+        <div>
+            <h2>Altura</h2>
+            <input type="number" id="input_height">
+        </div>
+    
+        <div>
+            <h2>Peso</h2>
+            <input type="number" id="input_weight">
+        </div>
+
+        <br>
+        <button type="button" onclick="calculoImc()">Calcular</button>
+        <br>
+        <br>
+        <label id="lbl_result"></label>
+    </div>
+    
+    
+</body>
+
+</html>
